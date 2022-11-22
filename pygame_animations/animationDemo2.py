@@ -15,6 +15,7 @@ while True:
         frame = (frame+1)%8                         # There are 8 frames of animation in each direction
         nextFrame += 80                             # so the modulus 8 allows it to loop
 
+# movement using arrowkeys
     if keyPressed("right"):
         changeSpriteImage(testSprite, 0*8+frame)    # 0*8 because right animations are the 0th set in the sprite sheet
 
